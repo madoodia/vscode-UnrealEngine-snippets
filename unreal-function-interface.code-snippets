@@ -1,0 +1,14 @@
+/** --------------------- */
+/** (C) 2021 madoodia.com */
+/** --------------------- */
+
+{
+  "Unreal Function Interface": {
+    "prefix": "ufi",
+    "scope": "",
+    "body": [
+			"virtual void ${1:SomeFunction}() = 0;"
+    ],
+    "description": ""
+  }
+}

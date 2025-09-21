@@ -1,0 +1,26 @@
+/** --------------------- */
+/** (C) 2021 madoodia.com */
+/** --------------------- */
+
+{
+  "Unreal UProject": {
+    "prefix": "uuproj",
+    "scope": "",
+    "body": [
+      "{",
+      "  \"FileVersion\": 3,",
+      "  \"EngineAssociation\": \"5.0EA\",",
+      "  \"Category\": \"\",",
+      "  \"Description\": \"\",",
+      "  \"Modules\": [",
+      "    {",
+      "      \"Name\": \"$1\",",
+      "      \"Type\": \"Runtime\",",
+      "      \"LoadingPhase\": \"Default\"",
+      "    }",
+      "  ]",
+      "}"
+    ],
+    "description": ""
+  }
+}

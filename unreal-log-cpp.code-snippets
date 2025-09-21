@@ -1,0 +1,16 @@
+/** --------------------- */
+/** (C) 2021 madoodia.com */
+/** --------------------- */
+
+{
+  "Unreal Log Cpp": {
+    "prefix": "ulc",
+    "scope": "",
+    "body": [
+      "#include \"Log.h\"",
+      "",
+      "DEFINE_LOG_CATEGORY(Log${TM_FILEPATH/.*\\/Source\\/(.*)\\/(?:Private|Public)\\/.*/$1/});"
+    ],
+    "description": ""
+  }
+}

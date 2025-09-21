@@ -1,0 +1,14 @@
+/** --------------------- */
+/** (C) 2021 madoodia.com */
+/** --------------------- */
+
+{
+  "Unreal Function Constructor": {
+    "prefix": "ufc",
+    "scope": "",
+    "body": [
+      "${1:_}${TM_FILENAME/([^\\.]+)\\..*/$1/}(const FObjectInitializer& ObjectInitializer);"
+    ],
+    "description": ""
+  }
+}

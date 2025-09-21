@@ -1,0 +1,19 @@
+/** --------------------- */
+/** (C) 2021 madoodia.com */
+/** --------------------- */
+
+{
+  "Unreal Function Replicated": {
+    "prefix": "ufr",
+    "scope": "",
+    "body": [
+      "void A${TM_FILENAME/([^\\.]+)\\..*/$1/}::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const",
+      "{",
+      "  Super::GetLifetimeReplicatedProps(OutLifetimeProps);",
+      "",
+      "  DOREPLIFETIME(A${TM_FILENAME/([^\\.]+)\\..*/$1/}, ${1:SomeProperty});",
+      "}"
+    ],
+    "description": ""
+  }
+}

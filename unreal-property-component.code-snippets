@@ -1,0 +1,15 @@
+/** --------------------- */
+/** (C) 2021 madoodia.com */
+/** --------------------- */
+
+{
+  "Unreal Property Component": {
+    "prefix": "upc",
+    "scope": "",
+    "body": [
+      "UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=\"Components\")",
+      "${2:class USceneComponent*} ${1:SomeComponent};"
+    ],
+    "description": ""
+  }
+}

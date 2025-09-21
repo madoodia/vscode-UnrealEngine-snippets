@@ -1,0 +1,18 @@
+/** --------------------- */
+/** (C) 2021 madoodia.com */
+/** --------------------- */
+
+{
+  "Unreal Log Header": {
+    "prefix": "ulh",
+    "scope": "",
+    "body": [
+      "#pragma once",
+      "",
+      "#include \"Logging/LogMacros.h\"",
+      "",
+      "DECLARE_LOG_CATEGORY_EXTERN(Log${TM_FILEPATH/.*\\/Source\\/(.*)\\/(?:Private|Public)\\/.*/$1/}, All, All);"
+    ],
+    "description": ""
+  }
+}

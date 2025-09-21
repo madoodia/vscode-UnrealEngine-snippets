@@ -1,0 +1,14 @@
+/** --------------------- */
+/** (C) 2021 madoodia.com */
+/** --------------------- */
+
+{
+  "Unreal Macro Export": {
+    "prefix": "ume",
+    "scope": "",
+    "body": [
+      "${TM_FILEPATH/.*\\/Source\\/(.*)\\/(?:Private|Public)\\/.*/\\U$1/}_API"
+    ],
+    "description": ""
+  }
+}

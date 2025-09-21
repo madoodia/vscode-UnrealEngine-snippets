@@ -1,0 +1,14 @@
+/** --------------------- */
+/** (C) 2021 madoodia.com */
+/** --------------------- */
+
+{
+  "Unreal Log line": {
+    "prefix": "ull",
+    "scope": "",
+    "body": [
+			"UE_LOG(Log${TM_FILEPATH/.*\\/Source\\/(.*)\\/(?:Private|Public)\\/.*/$1/}, ${2:Log}, TEXT(\"${1:Hello}\"));"
+    ],
+    "description": ""
+  }
+}

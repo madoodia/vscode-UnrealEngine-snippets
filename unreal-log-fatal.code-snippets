@@ -1,0 +1,14 @@
+/** --------------------- */
+/** (C) 2021 madoodia.com */
+/** --------------------- */
+
+{
+  "Unreal Log Fatal": {
+    "prefix": "ulf",
+    "scope": "",
+    "body": [
+			"UE_LOG(Log${TM_FILEPATH/.*\\/Source\\/(.*)\\/(?:Private|Public)\\/.*/$1/}, Fatal, TEXT(\"${1:Fatal error}\"));"
+    ],
+    "description": ""
+  }
+}

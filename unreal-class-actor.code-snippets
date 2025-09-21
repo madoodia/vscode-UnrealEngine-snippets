@@ -1,0 +1,26 @@
+/** --------------------- */
+/** (C) 2021 madoodia.com */
+/** --------------------- */
+
+{
+  "Unreal Class Actor": {
+    "prefix": "uca",
+    "scope": "",
+    "body": [
+    "#pragma once",
+    "",
+    "#include \"CoreMinimal.h\"",
+    "#include \"GameFramework/Actor.h\"",
+    "#include \"${TM_FILENAME/([^\\.]+)\\..*/$1/}.generated.h\"",
+    "",
+    "UCLASS()",
+    "class A${TM_FILENAME/([^\\.]+)\\..*/$1/} : public AActor",
+    "{",
+    "  GENERATED_BODY()",    
+    "public:",
+    "  $1",
+    "};"
+    ],
+    "description": ""
+  }
+}

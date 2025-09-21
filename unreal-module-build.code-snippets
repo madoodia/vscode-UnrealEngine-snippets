@@ -1,0 +1,26 @@
+/** --------------------- */
+/** (C) 2021 madoodia.com */
+/** --------------------- */
+
+{
+  "Unreal Module Build": {
+    "prefix": "umb",
+    "scope": "",
+    "body": [
+      "using UnrealBuildTool;",
+      "",
+      "public class ${TM_FILENAME/([^\\.]+)\\..*/$1/} : ModuleRules",
+      "{",
+      "  public ${TM_FILENAME/([^\\.]+)\\..*/$1/}(ReadOnlyTargetRules Target) : base(Target)",
+      "  {",
+      "     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;",
+      "     bEnforceIWYU = true;",
+      "",
+      "     PublicDependencyModuleNames.AddRange(new string[] { \"Core\", \"CoreUObject\", \"Engine\" });",
+      "     PrivateDependencyModuleNames.AddRange(new string[] { });",
+      "  }",
+      "}"
+    ],
+    "description": ""
+  }
+}
